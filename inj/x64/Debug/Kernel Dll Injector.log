@@ -1,0 +1,323 @@
+﻿  Communication.cpp
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(166,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(163,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(235,6): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(182,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(179,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(218,13): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(243,70): error C2975: 'Cs': invalid template argument for 'jm::detail::tstring_', expected compile-time constant expression
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : see declaration of 'Cs'
+C:\Users\iboot\Desktop\fninjector\Communication.cpp(9,10): message : see reference to function template instantiation 'auto jm::make_xorstr<Communication::Init::<lambda_1>,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,0,1,2,3,4,5,6,7>(Tstr,std::integer_sequence<size_t,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54>,std::integer_sequence<size_t,0,1,2,3,4,5,6,7>) noexcept' being compiled
+          with
+          [
+              Tstr=Communication::Init::<lambda_1>
+          ]
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): error C2131: expression did not evaluate to a constant
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): message : a non-constant (sub-)expression was encountered
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148): message : see reference to class template instantiation 'jm::detail::tstring_<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(242): message : see reference to class template instantiation 'jm::xor_string<jm::detail::tstring_<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>,jm::detail::_ki<0,16537139059448384829>,jm::detail::_ki<1,18356036075250752262>,jm::detail::_ki<2,6598128429087311983>,jm::detail::_ki<3,4196377751156406992>,jm::detail::_ki<4,15730166672717007553>,jm::detail::_ki<5,12139076086576302186>,jm::detail::_ki<6,5081968092120421299>,jm::detail::_ki<7,7250527910337431716>>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [55]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [55]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\iboot\Desktop\fninjector\Communication.cpp(9,3): error C2664: 'int printf(const char *const ,...)': cannot convert argument 1 from 'unknown-type *' to 'const char *const '
+C:\Users\iboot\Desktop\fninjector\Communication.cpp(9,10): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(950,37): message : see declaration of 'printf'
+C:\Users\iboot\Desktop\fninjector\Communication.cpp(9,3): message : while trying to match the argument list '(unknown-type *)'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [49]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): fatal  error C1003: error count exceeds 100; stopping compilation
+  intel_driver.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(166,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(163,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(235,6): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(182,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(179,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(218,13): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(143,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(189,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [10]' to 'LPCWSTR'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,35): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\libloaderapi.h(244,1): message : see declaration of 'GetModuleHandleW'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): message : while trying to match the argument list '(const char [10])'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): message : 'GetModuleHandleW': function declaration must be available as none of the arguments depend on a template parameter
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(243,70): error C2975: 'Cs': invalid template argument for 'jm::detail::tstring_', expected compile-time constant expression
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : see declaration of 'Cs'
+C:\Users\iboot\Desktop\fninjector\intel_driver.cpp(9,41): message : see reference to function template instantiation 'auto jm::make_xorstr<intel_driver::IsRunning::<lambda_1>,0,1,2,3,4,5,6,7,0,1>(Tstr,std::integer_sequence<size_t,0,1,2,3,4,5,6,7>,std::integer_sequence<size_t,0,1>) noexcept' being compiled
+          with
+          [
+              Tstr=intel_driver::IsRunning::<lambda_1>
+          ]
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): error C2131: expression did not evaluate to a constant
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): message : a non-constant (sub-)expression was encountered
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148): message : see reference to class template instantiation 'jm::detail::tstring_<0,0,0,0,0,0,0,0>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(242): message : see reference to class template instantiation 'jm::xor_string<jm::detail::tstring_<0,0,0,0,0,0,0,0>,jm::detail::_ki<0,3568167216425742053>,jm::detail::_ki<1,1922719385720194290>>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [8]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [8]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\iboot\Desktop\fninjector\intel_driver.cpp(9,29): error C2664: 'HANDLE CreateFileA(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': cannot convert argument 1 from 'unknown-type *' to 'LPCSTR'
+C:\Users\iboot\Desktop\fninjector\intel_driver.cpp(9,41): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\fileapi.h(79,1): message : see declaration of 'CreateFileA'
+C:\Users\iboot\Desktop\fninjector\intel_driver.cpp(9,29): message : while trying to match the argument list '(unknown-type *, int, int, nullptr, int, int, nullptr)'
+C:\Users\iboot\Desktop\fninjector\intel_driver.cpp(9,15): error C2737: 'file_handle': const object must be initialized
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [28]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [28]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [44]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [44]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [67]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): fatal  error C1003: error count exceeds 100; stopping compilation
+  kdmapper.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(166,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(163,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(235,6): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(182,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(179,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(218,13): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(143,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(189,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [10]' to 'LPCWSTR'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,35): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\libloaderapi.h(244,1): message : see declaration of 'GetModuleHandleW'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): message : while trying to match the argument list '(const char [10])'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): message : 'GetModuleHandleW': function declaration must be available as none of the arguments depend on a template parameter
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(243,70): error C2975: 'Cs': invalid template argument for 'jm::detail::tstring_', expected compile-time constant expression
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : see declaration of 'Cs'
+C:\Users\iboot\Desktop\fninjector\kdmapper.cpp(13,16): message : see reference to function template instantiation 'auto jm::make_xorstr<kdmapper::MapDriver::<lambda_1>,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,0,1,2,3>(Tstr,std::integer_sequence<size_t,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30>,std::integer_sequence<size_t,0,1,2,3>) noexcept' being compiled
+          with
+          [
+              Tstr=kdmapper::MapDriver::<lambda_1>
+          ]
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): error C2131: expression did not evaluate to a constant
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): message : a non-constant (sub-)expression was encountered
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148): message : see reference to class template instantiation 'jm::detail::tstring_<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(242): message : see reference to class template instantiation 'jm::xor_string<jm::detail::tstring_<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>,jm::detail::_ki<0,1554739830670754701>,jm::detail::_ki<1,14891691231010195398>,jm::detail::_ki<2,10062473276944718527>,jm::detail::_ki<3,7660722596085645536>>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [31]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [31]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [24]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [24]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [46]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): fatal  error C1003: error count exceeds 100; stopping compilation
+  Loader.cpp
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(166,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(163,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(235,6): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(182,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(179,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(218,13): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(243,70): error C2975: 'Cs': invalid template argument for 'jm::detail::tstring_', expected compile-time constant expression
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : see declaration of 'Cs'
+C:\Users\iboot\Desktop\fninjector\Loader.cpp(25,10): message : see reference to function template instantiation 'auto jm::make_xorstr<DriverInit::<lambda_1>,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,0,1,2,3>(Tstr,std::integer_sequence<size_t,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27>,std::integer_sequence<size_t,0,1,2,3>) noexcept' being compiled
+          with
+          [
+              Tstr=DriverInit::<lambda_1>
+          ]
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): error C2131: expression did not evaluate to a constant
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): message : a non-constant (sub-)expression was encountered
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148): message : see reference to class template instantiation 'jm::detail::tstring_<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(242): message : see reference to class template instantiation 'jm::xor_string<jm::detail::tstring_<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>,jm::detail::_ki<0,1734494662546610359>,jm::detail::_ki<1,14711936399386776836>,jm::detail::_ki<2,10242228107882831489>,jm::detail::_ki<3,462992781101009782>>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [28]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [28]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\iboot\Desktop\fninjector\Loader.cpp(25,3): error C2664: 'int printf(const char *const ,...)': cannot convert argument 1 from 'unknown-type *' to 'const char *const '
+C:\Users\iboot\Desktop\fninjector\Loader.cpp(25,10): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(950,37): message : see declaration of 'printf'
+C:\Users\iboot\Desktop\fninjector\Loader.cpp(25,3): message : while trying to match the argument list '(unknown-type *)'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [20]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [20]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\Loader.cpp(36,3): error C2664: 'int printf(const char *const ,...)': cannot convert argument 1 from 'unknown-type *' to 'const char *const '
+C:\Users\iboot\Desktop\fninjector\Loader.cpp(36,10): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(950,37): message : see declaration of 'printf'
+C:\Users\iboot\Desktop\fninjector\Loader.cpp(36,3): message : while trying to match the argument list '(unknown-type *)'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [10]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [10]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\Loader.cpp(146,19): error C2664: 'HMODULE LoadLibraryW(LPCWSTR)': cannot convert argument 1 from 'unknown-type *' to 'LPCWSTR'
+C:\Users\iboot\Desktop\fninjector\Loader.cpp(146,32): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\libloaderapi.h(601,1): message : see declaration of 'LoadLibraryW'
+C:\Users\iboot\Desktop\fninjector\Loader.cpp(146,19): message : while trying to match the argument list '(unknown-type *)'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [39]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): fatal  error C1003: error count exceeds 100; stopping compilation
+  Mapper.cpp
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(166,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(163,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(235,6): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(182,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(179,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(218,13): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(143,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(189,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [10]' to 'LPCWSTR'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,35): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\libloaderapi.h(244,1): message : see declaration of 'GetModuleHandleW'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): message : while trying to match the argument list '(const char [10])'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): message : 'GetModuleHandleW': function declaration must be available as none of the arguments depend on a template parameter
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(243,70): error C2975: 'Cs': invalid template argument for 'jm::detail::tstring_', expected compile-time constant expression
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : see declaration of 'Cs'
+C:\Users\iboot\Desktop\fninjector\Mapper.cpp(10,15): message : see reference to function template instantiation 'auto jm::make_xorstr<SimplestCrashHandler::<lambda_1>,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,0,1,2,3>(Tstr,std::integer_sequence<size_t,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21>,std::integer_sequence<size_t,0,1,2,3>) noexcept' being compiled
+          with
+          [
+              Tstr=SimplestCrashHandler::<lambda_1>
+          ]
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): error C2131: expression did not evaluate to a constant
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): message : a non-constant (sub-)expression was encountered
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148): message : see reference to class template instantiation 'jm::detail::tstring_<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(242): message : see reference to class template instantiation 'jm::xor_string<jm::detail::tstring_<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>,jm::detail::_ki<0,9225694274233517495>,jm::detail::_ki<1,3756391939951909556>,jm::detail::_ki<2,2751028491276992449>,jm::detail::_ki<3,11418537242736759902>>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [22]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [22]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [7]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [7]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [31]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [31]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [28]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): fatal  error C1003: error count exceeds 100; stopping compilation
+  MemoryUtils.cpp
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(166,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(163,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(235,6): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(182,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(179,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(218,13): warning C4984: 'if constexpr' is a C++17 language extension
+  portable_executable.cpp
+  ProcessUtils.cpp
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(166,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(163,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(235,6): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(182,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(179,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(218,13): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\ProcessUtils.cpp(22,9): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+C:\Users\iboot\Desktop\fninjector\ProcessUtils.cpp(22,18): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\string.h(100,13): message : see declaration of 'strcmp'
+C:\Users\iboot\Desktop\fninjector\ProcessUtils.cpp(22,9): message : while trying to match the argument list '(WCHAR [260], const _Elem *)'
+          with
+          [
+              _Elem=char
+          ]
+  service.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(72,26): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(166,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(163,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(235,6): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(182,71): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(179,33): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(218,13): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(143,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(189,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [10]' to 'LPCWSTR'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,35): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\libloaderapi.h(244,1): message : see declaration of 'GetModuleHandleW'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): message : while trying to match the argument list '(const char [10])'
+C:\Users\iboot\Desktop\fninjector\intel_driver.hpp(157,34): message : 'GetModuleHandleW': function declaration must be available as none of the arguments depend on a template parameter
+C:\Users\iboot\Desktop\fninjector\service.cpp(7,39): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\iboot\Desktop\fninjector\service.cpp(7,51): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\fstream(26,1): message : see declaration of 'std'
+C:\Users\iboot\Desktop\fninjector\service.cpp(7,55): error C3861: 'path': identifier not found
+C:\Users\iboot\Desktop\fninjector\service.cpp(12,19): error C2664: 'LSTATUS RegCreateKeyW(HKEY,LPCWSTR,PHKEY)': cannot convert argument 2 from 'const _Elem *' to 'LPCWSTR'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\iboot\Desktop\fninjector\service.cpp(12,70): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winreg.h(361,1): message : see declaration of 'RegCreateKeyW'
+C:\Users\iboot\Desktop\fninjector\service.cpp(12,19): message : while trying to match the argument list '(HKEY, const _Elem *, HKEY *)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(243,70): error C2975: 'Cs': invalid template argument for 'jm::detail::tstring_', expected compile-time constant expression
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(83,18): message : see declaration of 'Cs'
+C:\Users\iboot\Desktop\fninjector\service.cpp(15,10): message : see reference to function template instantiation 'auto jm::make_xorstr<service::RegisterAndStart::<lambda_1>,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,0,1,2,3>(Tstr,std::integer_sequence<size_t,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29>,std::integer_sequence<size_t,0,1,2,3>) noexcept' being compiled
+          with
+          [
+              Tstr=service::RegisterAndStart::<lambda_1>
+          ]
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): error C2131: expression did not evaluate to a constant
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(87,54): message : a non-constant (sub-)expression was encountered
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148): message : see reference to class template instantiation 'jm::detail::tstring_<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(242): message : see reference to class template instantiation 'jm::xor_string<jm::detail::tstring_<0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0>,jm::detail::_ki<0,16201689099426720965>,jm::detail::_ki<1,5611813701538937958>,jm::detail::_ki<2,7629899534543238455>,jm::detail::_ki<3,2542251008316949384>>' being compiled
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [30]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [30]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(148,48): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\iboot\Desktop\fninjector\service.cpp(15,3): error C2664: 'int printf(const char *const ,...)': cannot convert argument 1 from 'unknown-type *' to 'const char *const '
+C:\Users\iboot\Desktop\fninjector\service.cpp(15,10): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(950,37): message : see declaration of 'printf'
+C:\Users\iboot\Desktop\fninjector\service.cpp(15,3): message : while trying to match the argument list '(unknown-type *)'
+C:\Users\iboot\Desktop\fninjector\service.cpp(19,11): error C2664: 'LSTATUS RegSetKeyValueW(HKEY,LPCWSTR,LPCWSTR,DWORD,LPCVOID,DWORD)': cannot convert argument 3 from 'const char [10]' to 'LPCWSTR'
+C:\Users\iboot\Desktop\fninjector\service.cpp(19,42): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winreg.h(1212,1): message : see declaration of 'RegSetKeyValueW'
+C:\Users\iboot\Desktop\fninjector\service.cpp(19,11): message : while trying to match the argument list '(HKEY, int, const char [10], unsigned long, const _Elem *, DWORD)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [45]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(92,1): error C2070: 'const unknown-type [45]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\service.cpp(23,3): error C2664: 'int printf(const char *const ,...)': cannot convert argument 1 from 'unknown-type *' to 'const char *const '
+C:\Users\iboot\Desktop\fninjector\service.cpp(23,10): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(950,37): message : see declaration of 'printf'
+C:\Users\iboot\Desktop\fninjector\service.cpp(23,3): message : while trying to match the argument list '(unknown-type *)'
+C:\Users\iboot\Desktop\fninjector\service.cpp(27,11): error C2664: 'LSTATUS RegSetKeyValueW(HKEY,LPCWSTR,LPCWSTR,DWORD,LPCVOID,DWORD)': cannot convert argument 3 from 'const char [5]' to 'LPCWSTR'
+C:\Users\iboot\Desktop\fninjector\service.cpp(27,42): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winreg.h(1212,1): message : see declaration of 'RegSetKeyValueW'
+C:\Users\iboot\Desktop\fninjector\service.cpp(27,11): message : while trying to match the argument list '(HKEY, int, const char [5], unsigned long, const DWORD *, size_t)'
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): error C2070: 'const unknown-type [40]': illegal sizeof operand
+C:\Users\iboot\Desktop\fninjector\xorstr.hpp(89,1): fatal  error C1003: error count exceeds 100; stopping compilation
+  utils.cpp
+  Generating Code...
